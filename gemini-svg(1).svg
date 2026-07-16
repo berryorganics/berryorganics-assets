@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Gradiente sutil para el fondo verde -->
+    <linearGradient id="whatsappGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4bf067" />
+      <stop offset="100%" stop-color="#19d141" />
+    </linearGradient>
+  </defs>
+  <!-- Fondo con bordes redondeados -->
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="url(#whatsappGrad)" />
+  
+  <!-- Burbuja de diálogo blanca -->
+  <path d="M 256,105 C 173,105 105,173 105,256 C 105,285 113,312 128,335 L 110,395 L 173,378 C 197,392 225,400 256,400 C 339,400 407,332 407,256 C 407,173 339,105 256,105 Z" fill="none" stroke="#ffffff" stroke-width="26" stroke-linejoin="round" />
+  
+  <!-- Ícono del teléfono -->
+  <path d="M 190,195 C 185,190 175,195 170,200 C 160,210 155,230 175,265 C 195,300 220,325 250,340 C 275,352 295,345 302,335 C 307,328 310,320 305,315 L 275,290 C 270,285 262,285 258,290 C 250,298 245,300 235,290 C 220,275 215,265 222,255 C 226,250 230,245 225,240 L 190,195 Z" fill="#ffffff" />
+</svg>
